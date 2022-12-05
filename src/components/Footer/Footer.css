@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0;
   background-color: blue;
+  color: white;
   height: 5vh;
   width: 100vw;
 }

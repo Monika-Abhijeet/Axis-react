@@ -2,12 +2,13 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/main";
 import "./App.css";
+import ClassCounter from "./components/ClassCounter/ClassCounter";
 function App() {
   return (
     <div className="App">
       <Header title="Online shopping portal"></Header>
       <div className="main-content">
-        <Main
+        {/* <Main
           name="apple"
           description="It is a very healthy red colour fruit"
         ></Main>
@@ -18,9 +19,10 @@ function App() {
         <Main
           name="strawberry"
           description="It is a very healthy red colour tasty fruit"
-        ></Main>
+        ></Main> */}
+        <ClassCounter></ClassCounter>
       </div>
-      <Footer></Footer>
+      <Footer title="this is a footer"></Footer>
     </div>
   );
 }
