@@ -33,7 +33,7 @@ class ClassCounter extends Component {
         <h2>Count value is : {this.state.count}</h2>
         <button onClick={this.incrementCount}>Increment</button>
         <button onClick={() => this.decrementCount()}>Decrement</button>
-        <button onClick={() => this.increment5(2)}>Increment By 2</button>
+        <button onClick={() => this.increment5(5)}>Increment By 2</button>
       </div>
     );
   }

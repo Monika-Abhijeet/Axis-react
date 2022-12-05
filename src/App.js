@@ -3,7 +3,8 @@ import Footer from "./components/Footer/Footer";
 import Main from "./components/Main/main";
 import "./App.css";
 import ClassCounter from "./components/ClassCounter/ClassCounter";
-import UseStateDemo from "./components/ClassCounter/functionCounter/FunctionCounter";
+import UseStateDemo from "./components/functionCounter/FunctionCounter";
+import Employee from "./components/Employee/Employee";
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,8 @@ function App() {
           description="It is a very healthy red colour tasty fruit"
         ></Main> */}
         {/* <ClassCounter></ClassCounter> */}
-        <UseStateDemo></UseStateDemo>
+        {/* <UseStateDemo></UseStateDemo> */}
+        <Employee></Employee>
       </div>
       <Footer title="this is a footer"></Footer>
     </div>
